@@ -39,7 +39,7 @@ const populate = {
   seo: {
     fields: ["metaTitle", "metaDescription"],
     populate: { shareImage: true },
-  }
+  },
 };
 
 module.exports = (config, { strapi }) => {
